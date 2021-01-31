@@ -1,0 +1,33 @@
+.managers {
+    padding: 58px 0 76px 0;
+    background: url('/img/manager-bg.png') center (center / cover) no-repeat;
+    opacity: 0.6;
+    &__icon {
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin: 20px auto 18px auto;
+        text-align: center;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff; 
+    }
+
+    &__subtitle {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}

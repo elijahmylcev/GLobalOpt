@@ -1,0 +1,73 @@
+.consultation {
+    &__title {
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        line-height: 23px;
+        font-weight: 400;
+        color: $text-color;
+    }
+
+    &__wrapper {
+        margin: 71px auto 80px auto;
+        max-width: 1140px;
+        min-height: 166px;
+        border: 2px solid  #898989;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: -1;
+        &_icon {
+            width: 102px;
+            height: 102px;
+            border-radius: 100%;
+            background-color: #fff;
+            border: 1px solid $main-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(25%);
+            z-index: 100;
+        }
+
+        &_form {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        &_btn {
+            position: absolute;
+            bottom: -15%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+        }
+    }
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    &__input {
+        input {
+            margin-right: 10px;
+            min-width: 260px;
+            font-size: 13px;
+            padding: 10px 0 10px 10px;
+            border: 1px solid $contact-color;
+            border-radius: 15px;
+            color: $contact-color;
+            font-size: 10px;
+        }
+    }
+}
