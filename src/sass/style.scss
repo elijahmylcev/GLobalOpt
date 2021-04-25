@@ -1,0 +1,49 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import 'base/variables';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $title-color;
+}
+.subtitle {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 300;
+    color: $title-color;
+    text-align: center;
+}
+.divider {
+    width: 148px;
+    height: 1px;    
+    margin: 21px auto 17px auto;
+    background-color: $main-color;
+}
+
+
+@import 'blocks/first-screen';
+@import 'blocks/advantages';
+@import 'blocks/ourwork';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import "blocks/consultation";
+@import 'blocks/managers';
+@import 'blocks/schema';
+@import 'blocks/reviews';
+@import 'blocks/feddback';
+@import 'blocks/map';
+@import 'blocks/footer';
