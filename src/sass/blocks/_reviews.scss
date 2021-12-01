@@ -1,49 +1,49 @@
 .reviews {
-    padding: 51px 0 65px 0;
-    &__inner {
-        width: 605px;
-        margin: 31px auto 0 auto;
-        position: relative;
+  padding: 51px 0 65px 0;
+  &__inner {
+    width: 605px;
+    margin: 31px auto 0 auto;
+    position: relative;
+  }
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 200px;
+    border: none;
+    background-color: #fff;
+    img {
+      width: 14px;
+      height: 46px;
     }
-    .slick-prev, .slick-next  {
-        position: absolute;
-        top: 20%;
-        transform: translateY(-50%);
-        left: 200px;
-        border: none;
-        background-color: #fff;
-        img {
-            width: 14px;
-            height: 46px;
-        }
-    }
-    .slick-next  {
-        right: 200px;
-        left: auto;
-    }
+  }
+  .slick-next {
+    right: 200px;
+    left: auto;
+  }
 }
 
-.inerItem {
-
-    &__img {
-        margin: 0 auto 19px auto;
-        img {
-            margin: 0 auto;
-        }
+.innerItem {
+  &__img {
+    margin: 0 auto 19px auto;
+    img {
+      margin: 0 auto;
     }
+  }
 
-    &__rewiews {
-        font-size: 14.1px;
-        font-weight: 300;
-        text-align: center;
-        color: $text-color;
-        line-height: 22px;
-        span {
-            font-size: 18px;
-            
-            font-weight: 700;
-            
-            text-align: center;
-        }
+  &__rewiews {
+    font-size: 14.1px;
+    font-weight: 300;
+    text-align: center;
+    color: $text-color;
+    line-height: 22px;
+    span {
+      font-size: 18px;
+
+      font-weight: 700;
+
+      text-align: center;
     }
+  }
 }
